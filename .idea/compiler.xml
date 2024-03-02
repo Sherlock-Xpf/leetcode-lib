@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Array" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Array" target="1.5" />
+      <module name="Hash" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
